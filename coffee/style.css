@@ -1,0 +1,45 @@
+header { 
+  background-image: url("images/beans.jpg");
+  background-repeat: no-repeat;
+}
+
+body {
+	background-color:#FEFEF2;
+}
+
+ul { 
+	list-style-type: none; 
+}
+
+h2, p {
+	font-family: arial;
+	text-align: center;
+}
+
+h2 {
+	font-size: 18px;
+	color:#802A2A;
+}
+
+
+a {
+	text-decoration: none;
+	font-weight:bold;
+	color:#d3d3d3;
+}
+
+
+a:hover{
+	color:gray;
+}
+
+
+p {
+	font-size: 14px;
+}
+
+footer{
+	background-color:#802A2A;
+	color:#d3d3d3;
+	text-align: center;
+}
