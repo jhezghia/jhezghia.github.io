@@ -1,46 +1,131 @@
+/*********************
+Header 
+**********************/
+
 header { 
   background-image: url("images/beans.jpg");
   background-repeat: no-repeat;
+  width:1024px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
+
+header img {
+	width: 136px;
+	margin: 0 auto;
+	padding: 15px 0 35px 0;
+	display: block;
+}
+
+nav {
+	background: #230B03;
+	/* Widen the background thing around nav */
+	padding: 5px 0;
+
+
+}
+ul {
+	width: 1000px;
+	margin:0px auto;
+	text-align: center;
+	padding:0px;
+	padding-left: 10px;
+}
+
+ul li { 
+	list-style-type: none; 
+	display: inline;
+	/* Spacing of nav in between one another */
+	margin: 0 20px;
+	text-align: center;
+}
+
+li a {
+	text-decoration: none;
+	color:#d3d3d3;
+	font-size: 18px;
+	font-family: georgia;
+
+}
+
+
+li a:hover{
+	color:gray;
+}
+
+/*********************
+Body
+**********************/
 
 body {
-	background-color:#FEFEF2;
+	background-color:black;
+	margin:0 auto;
+	max-width: 1024px;
 }
 
-ul { 
-	list-style-type: none; 
+#background{
+	background-color:#FFFFFF;
 }
 
-h2, p {
-	font-family: arial;
+
+
+/*********************
+Columns
+**********************/
+
+#columns {
+	position:relative;
+	padding-bottom: 20px;
+
+}
+
+section {
+	width: 340px;
+	overflow: auto;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+#left-col {
+	float:left;
+	margin-left:120px;
+
+
+}
+
+#right-col {
+	margin-right:120px;
+
+
+}
+
+/*********************
+Text
+**********************/
+
+p {
+	margin-top: 10px;
+}
+p, footer {
+	font-size: 16px;
+	font-family: georgia;
+}
+
+p, h2 {
 	text-align: center;
 }
 
 h2 {
+	font-family: arial;
 	font-size: 22px;
-	color:#802A2A;
-}
-
-
-a {
-	text-decoration: none;
-	font-weight:bold;
-	color:#d3d3d3;
-}
-
-
-a:hover{
-	color:gray;
-}
-
-
-p {
-	font-size: 16px;
-	font-family: "Georgia"
+	color:#3B2313;
+	margin:0;
+	margin-top: 30px;
 }
 
 footer{
-	background-color:#802A2A;
+	background-color:#230B03;
 	color:#d3d3d3;
 	text-align: center;
+	padding:17px;
 }
