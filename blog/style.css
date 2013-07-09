@@ -16,10 +16,8 @@ header a img {
 }
 
 .menu {
-    position: absolute;
-    top: 63px;
-    right: 40px;
-    margin:16px 0;
+    float: right;
+    margin:65px 0 0 0;
     
 }
 
@@ -40,8 +38,8 @@ Body/Content
 body {
     padding: 5px 40px;
     margin: 8px auto;
-    max-width: 87.5em; 
-    
+    max-width: 90em;
+
 }
 
 #content {
@@ -61,8 +59,8 @@ Sidebar
 }
 
 #sidebar {
-    margin-top: 20px;
-    width: 17.5%;
+    margin-top: 17px;
+    width: 18.5%;
     float: left;
 
 }
@@ -71,7 +69,7 @@ Sidebar
 Articles
 **********************/
 article {
-   margin-left: 310px;
+   margin-left: 21.5%;
 }
 
 #post_1 h2{
@@ -133,6 +131,69 @@ h2 {
     margin-bottom:3px;
 }
 
+
+/*********************
+Less than 755px
+**********************/
+@media screen and (max-width:780px) { 
+
+    body{
+        background-color: red;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    a,p,h2 {
+        font-size: 14px;
+    }
+
+    #sidebar {
+        min-width: 95px;
+    }
+
+}
+
+/*********************
+Less than 628px
+**********************/
+@media screen and (max-width:628px) { 
+
+    body{
+        background-color: yellow;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    article {
+        margin-left: 0;
+    }
+
+    header a img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .menu {
+        float:left;
+        margin: 0 auto;
+        margin-top: -15px;
+        text-align: center;
+        display: block;
+    }
+
+    .menu li {
+        text-align: center;
+    }
+
+}
 
 
 
