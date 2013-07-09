@@ -185,6 +185,8 @@ Less than 628px
         display: block;
         margin: 0 auto;
         float: none;
+        max-width: 100%;
+
     }
 
     .menu {
