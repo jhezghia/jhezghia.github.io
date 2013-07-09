@@ -19,6 +19,7 @@ header a img {
     position: absolute;
     top: 63px;
     right: 40px;
+    margin:16px 0;
     
 }
 
@@ -38,10 +39,13 @@ Body/Content
 **********************/
 body {
     padding: 5px 40px;
+    margin: 8px auto;
+    max-width: 87.5em; 
+    
 }
 
 #content {
-    position:relative;
+    float:right;
 }
 /*********************
 Sidebar
@@ -57,9 +61,9 @@ Sidebar
 }
 
 #sidebar {
-    margin-top: 0px;
-    max-width: 255px;
-    position: absolute;
+    margin-top: 20px;
+    width: 17.5%;
+    float: left;
 
 }
 
@@ -98,6 +102,7 @@ p {
 a {
 	text-decoration: none;
 	font-weight:bold;
+    line-height: 20px;
 }
 
 a:link,a:visited {
@@ -123,6 +128,9 @@ h1 {
 h2 {
 	font-size: 14px;
 	margin-bottom:0px;
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom:3px;
 }
 
 
