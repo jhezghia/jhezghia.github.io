@@ -162,6 +162,7 @@ Less than 628px
 
     body{
         background-color: yellow;
+        
     }
 
     #menu {
@@ -179,14 +180,14 @@ Less than 628px
     header a img {
         display: block;
         margin: 0 auto;
+        float: none;
     }
 
     .menu {
-        float:left;
-        margin: 0 auto;
-        margin-top: -15px;
-        text-align: center;
         display: block;
+        float: none;
+        margin: -10px auto;
+        text-align: center;
     }
 
     .menu li {
