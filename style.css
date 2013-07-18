@@ -1,0 +1,116 @@
+/*************************
+Shared Styles
+*************************/
+
+/************
+Wrapper
+*************/
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 962px;
+}
+
+/************
+Links
+*************/
+a { color: inherit; text-decoration: none;}
+a img { border:none; text-decoration: none;}
+
+/************
+Visibility
+*************/
+
+.left { float: left; }
+.right { float: right; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.hide { display: none; }
+
+/************
+Type
+*************/
+h1.logo {
+	color:#000;
+	font-family: 'Droid Sans', sans-serif;;
+	border-bottom: 3px solid #000;
+	color: #000;
+	display:block;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 1;
+	margin:0px;
+	padding:20px 0 17px 0;
+	width:auto;
+	font-weight: 700;
+
+}
+
+.blurb {
+	clear:both;
+	font-size:450%;
+	padding:40px 0 40px 0;
+	font-family: 'Libre Baskerville', serif;
+	line-height: 1.2;
+}
+/************
+Nav
+*************/
+nav.main {
+	font-family: 'Droid Sans', sans-serif;
+	text-transform: uppercase;
+	padding-top: 28px;
+	letter-spacing: .25em;
+	
+	font-size: 12px;
+}
+
+ul.main {
+	list-style-type: none; 
+	display: inline;
+}
+
+ul.menu li {
+	float:left;
+	margin: 0 30px;
+}
+
+ul.menu li a {
+	padding-bottom: 20px;
+	-webkit-transition: border-bottom 0.2s ease-in-out;
+	-moz-transition: border-bottom  0.2s ease-in-out;
+	-ms-transition: border-bottom  0.2s ease-in-out;
+	-o-transition: border-bottom  0.2s ease-in-out;
+	transition: border-bottom  0.2s ease-in-out;
+}
+
+ul.menu li a:hover {
+	border-bottom: 3px solid #000;
+	opacity: .7;
+}
+
+
+
+
+
+
+/************
+Body
+*************/
+
+body { 
+	background: url('img/stones.jpg') no-repeat fixed center center; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	font-style: normal; 
+	font-size: 14px; 
+	line-height: 1; 
+	color: #222222; 
+	position: relative; 
+	/* ????
+	-webkit-font-smoothing: antialiased; */
+}
+
